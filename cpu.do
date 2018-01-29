@@ -13,7 +13,7 @@ force clk_al 1  2 -r 4
 force clk_al 0  4 -r 4
 
 # run for 9 clock periods
-# 9 clock periods x timesteps per period
-# = 36 timesteps
+# 39 clock periods x 4 timesteps per period
+# = 156 timesteps
 
-run 155
+run 156
